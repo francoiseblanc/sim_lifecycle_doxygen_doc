@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['path_383',['path',['../dd/df2/structdata__source.html#a44196e6a5696d10442c29e639437196e',1,'data_source']]],
-  ['prev_384',['prev',['../d5/da1/structnode.html#a530843171ca1a6e033bac999737cb184',1,'node']]]
+  ['name_394',['name',['../d9/dc0/structoperation.html#a5ac083a645d964373f022d03df4849c8',1,'operation']]],
+  ['next_395',['next',['../d5/da1/structnode.html#a0dc1b6470487aa86d9936e3cab8b95be',1,'node']]]
 ];

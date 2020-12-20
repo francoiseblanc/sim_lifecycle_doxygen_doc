@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['name_381',['name',['../d9/dc0/structoperation.html#a5ac083a645d964373f022d03df4849c8',1,'operation']]],
-  ['next_382',['next',['../d5/da1/structnode.html#a0dc1b6470487aa86d9936e3cab8b95be',1,'node']]]
+  ['lat_392',['lat',['../d8/dae/structpoint.html#a7972334534f68166121a6e51b0aac2d6',1,'point']]],
+  ['lon_393',['lon',['../d8/dae/structpoint.html#aa96391e04b5977c50b96d77bea86a01d',1,'point']]]
 ];

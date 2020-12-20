@@ -23,6 +23,7 @@
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Group E - A Solution for Simulation Lifecycle Management
    </div>
+   <div id="projectbrief">A workflow-based approach meant to support the complete simulation lifecycle.</div>
   </td>
  </tr>
  </tbody>
@@ -66,24 +67,56 @@ $(function() {
 </div><!-- top -->
 <div class="header">
   <div class="summary">
+<a href="#nested-classes">Data Structures</a> &#124;
+<a href="#typedef-members">Typedefs</a> &#124;
 <a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
 <div class="title">closest_distance.c File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><code>#include &lt;cJSON.h&gt;</code><br />
+<code>#include &lt;math.h&gt;</code><br />
 <code>#include &quot;<a class="el" href="../../da/d41/error_8h_source.html">simulation_lifecycle/error.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="../../d1/d4a/linked__list_8h_source.html">simulation_lifecycle/utils/linked_list.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../dd/da3/structures_8h_source.html">simulation_lifecycle/structures.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../d2/d74/feature_8h_source.html">simulation_lifecycle/utils/feature.h</a>&quot;</code><br />
 </div><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
+Data Structures</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d76/structdistance.html">distance</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="typedef-members"></a>
+Typedefs</h2></td></tr>
+<tr class="memitem:af092661270a8dba459fd4b8329850a4f"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="../../d0/d76/structdistance.html">distance</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/db9/closest__distance_8c.html#af092661270a8dba459fd4b8329850a4f">distance_t</a></td></tr>
+<tr class="separator:af092661270a8dba459fd4b8329850a4f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a7413239f438f5902d9c1df4a535f1106"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/db9/closest__distance_8c.html#a7413239f438f5902d9c1df4a535f1106">closest_distance_execute</a> (char *id, <a class="el" href="../../d1/d4a/linked__list_8h.html#a7c02633e18d6aa5f58539b75f08753d9">node_t</a> **data, cJSON *parameters)</td></tr>
-<tr class="memdesc:a7413239f438f5902d9c1df4a535f1106"><td class="mdescLeft">&#160;</td><td class="mdescRight">Executes the closest distance spatial analysis operation and stores the results in the data list.  <a href="../../d4/db9/closest__distance_8c.html#a7413239f438f5902d9c1df4a535f1106">More...</a><br /></td></tr>
-<tr class="separator:a7413239f438f5902d9c1df4a535f1106"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad2e181f76f09b2d9ca035df2fc0f6a9a"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/db9/closest__distance_8c.html#ad2e181f76f09b2d9ca035df2fc0f6a9a">closest_distance_execute</a> (char *id, <a class="el" href="../../d1/d4a/linked__list_8h.html#a7c02633e18d6aa5f58539b75f08753d9">node_t</a> **data_sources, cJSON *parameters)</td></tr>
+<tr class="memdesc:ad2e181f76f09b2d9ca035df2fc0f6a9a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Executes the closest distance spatial analysis operation and stores the results in the data list.  <a href="../../d4/db9/closest__distance_8c.html#ad2e181f76f09b2d9ca035df2fc0f6a9a">More...</a><br /></td></tr>
+<tr class="separator:ad2e181f76f09b2d9ca035df2fc0f6a9a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac70138609ef6aa6fabca57aca8681e83"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/db9/closest__distance_8c.html#ac70138609ef6aa6fabca57aca8681e83">compare</a> (const void *a, const void *b)</td></tr>
+<tr class="separator:ac70138609ef6aa6fabca57aca8681e83"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
+<h2 class="groupheader">Typedef Documentation</h2>
+<a id="af092661270a8dba459fd4b8329850a4f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af092661270a8dba459fd4b8329850a4f">&#9670;&nbsp;</a></span>distance_t</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="../../d0/d76/structdistance.html">distance</a> <a class="el" href="../../d4/db9/closest__distance_8c.html#af092661270a8dba459fd4b8329850a4f">distance_t</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <h2 class="groupheader">Function Documentation</h2>
-<a id="a7413239f438f5902d9c1df4a535f1106"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7413239f438f5902d9c1df4a535f1106">&#9670;&nbsp;</a></span>closest_distance_execute()</h2>
+<a id="ad2e181f76f09b2d9ca035df2fc0f6a9a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad2e181f76f09b2d9ca035df2fc0f6a9a">&#9670;&nbsp;</a></span>closest_distance_execute()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -124,6 +157,34 @@ Functions</h2></td></tr>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>0 if the operation was successful, an error code otherwise. </dd></dl>
+
+</div>
+</div>
+<a id="ac70138609ef6aa6fabca57aca8681e83"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac70138609ef6aa6fabca57aca8681e83">&#9670;&nbsp;</a></span>compare()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int compare </td>
+          <td>(</td>
+          <td class="paramtype">const void *&#160;</td>
+          <td class="paramname"><em>a</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const void *&#160;</td>
+          <td class="paramname"><em>b</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
 
 </div>
 </div>

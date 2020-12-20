@@ -23,6 +23,7 @@
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Group E - A Solution for Simulation Lifecycle Management
    </div>
+   <div id="projectbrief">A workflow-based approach meant to support the complete simulation lifecycle.</div>
   </td>
  </tr>
  </tbody>
@@ -70,10 +71,12 @@ $(function() {
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a2248d714e7bd855832899a2446b463aa"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d68/_c_make_lists_8txt.html#a2248d714e7bd855832899a2446b463aa">file</a> (GLOB MAIN ./main.c) file(GLOB SOURCES ./simulation_lifecycle *.c) <a class="el" href="../../dd/d68/_c_make_lists_8txt.html#aebdf610187e41abcc8c02d84daff75b1">include_directories</a>($</td></tr>
+<tr class="memitem:a2248d714e7bd855832899a2446b463aa"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d68/_c_make_lists_8txt.html#a2248d714e7bd855832899a2446b463aa">file</a> (GLOB MAIN ./main.c) file(GLOB SOURCES ./simulation_lifecycle *.c) <a class="el" href="../../dd/d68/_c_make_lists_8txt.html#aea1d53d3f2506614d1dd76b697ee8a98">include_directories</a>($</td></tr>
 <tr class="separator:a2248d714e7bd855832899a2446b463aa"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aebdf610187e41abcc8c02d84daff75b1"><td class="memItemLeft" align="right" valign="top">include&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d68/_c_make_lists_8txt.html#aebdf610187e41abcc8c02d84daff75b1">include_directories</a> (${simulation_lifecycle_SOURCE_DIR}/third_party/cJSON) add_executable(sim_lifecycle $</td></tr>
-<tr class="separator:aebdf610187e41abcc8c02d84daff75b1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aea1d53d3f2506614d1dd76b697ee8a98"><td class="memItemLeft" align="right" valign="top">include&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d68/_c_make_lists_8txt.html#aea1d53d3f2506614d1dd76b697ee8a98">include_directories</a> (${simulation_lifecycle_SOURCE_DIR}/third_party/cJSON) add_library(sim_lifecycle_lib $</td></tr>
+<tr class="separator:aea1d53d3f2506614d1dd76b697ee8a98"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a00bc3c47c8ece9c8e135743c490798ae"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d68/_c_make_lists_8txt.html#a00bc3c47c8ece9c8e135743c490798ae">target_link_libraries</a> (sim_lifecycle_lib m cjson) add_executable(sim_lifecycle $</td></tr>
+<tr class="separator:a00bc3c47c8ece9c8e135743c490798ae"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function Documentation</h2>
 <a id="a2248d714e7bd855832899a2446b463aa"></a>
@@ -94,8 +97,8 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="aebdf610187e41abcc8c02d84daff75b1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aebdf610187e41abcc8c02d84daff75b1">&#9670;&nbsp;</a></span>include_directories()</h2>
+<a id="aea1d53d3f2506614d1dd76b697ee8a98"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aea1d53d3f2506614d1dd76b697ee8a98">&#9670;&nbsp;</a></span>include_directories()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -105,6 +108,24 @@ Functions</h2></td></tr>
           <td>(</td>
           <td class="paramtype">&#160;</td>
           <td class="paramname"><em>${simulation_lifecycle_SOURCE_DIR}/third_party/</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a00bc3c47c8ece9c8e135743c490798ae"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a00bc3c47c8ece9c8e135743c490798ae">&#9670;&nbsp;</a></span>target_link_libraries()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">target_link_libraries </td>
+          <td>(</td>
+          <td class="paramtype">sim_lifecycle_lib m&#160;</td>
+          <td class="paramname"><em>cjson</em></td><td>)</td>
           <td></td>
         </tr>
       </table>

@@ -1,17 +1,5 @@
 var searchData=
 [
-  ['valid_5fdelay_371',['valid_delay',['../d0/deb/models_8c.html#a430e20cb878a6b1111055ee4db862385',1,'models.c']]],
-  ['validate_5farray_372',['validate_array',['../da/d42/visualization_8c.html#a9c9fb6e9a0f589d461b284c1b62117a4',1,'visualization.c']]],
-  ['validate_5fint_373',['validate_int',['../da/d42/visualization_8c.html#af6dd304cb73791e33a8128f41fae9757',1,'visualization.c']]],
-  ['validate_5flayer_374',['validate_layer',['../da/d42/visualization_8c.html#ac99659622227adca036d4c43463f3859',1,'visualization.c']]],
-  ['validate_5fmandatory_5fnumber_375',['validate_mandatory_number',['../da/d42/visualization_8c.html#a3d85e09708b2091690a62f0f6a103367',1,'visualization.c']]],
-  ['validate_5fmandatory_5fstring_376',['validate_mandatory_string',['../da/d42/visualization_8c.html#a5e5971975103ee2fa946c956144fbe2d',1,'visualization.c']]],
-  ['validate_5foptional_5fstring_377',['validate_optional_string',['../da/d42/visualization_8c.html#aafe834c10d8ab994415ff2ae10536d2a',1,'visualization.c']]],
-  ['validate_5fsimulation_378',['validate_simulation',['../da/d42/visualization_8c.html#adfd25326250ec75e4c1d7cf4f97270d0',1,'visualization.c']]],
-  ['validate_5fstring_379',['validate_string',['../da/d42/visualization_8c.html#a0230e48e5691f7d80166c2df558db30e',1,'visualization.c']]],
-  ['validate_5fstyle_380',['validate_style',['../da/d42/visualization_8c.html#a5f8a0fcf0ca6f2164783ecbdb38fd388',1,'visualization.c']]],
-  ['validate_5fsymbol_381',['validate_symbol',['../da/d42/visualization_8c.html#af4ba9d4a8ed62bcb98e54695e10fddf7',1,'visualization.c']]],
-  ['validate_5fview_382',['validate_view',['../da/d42/visualization_8c.html#ac8da836f8a88ba1919ecef703e339189',1,'visualization.c']]],
-  ['validate_5fvisualization_383',['validate_visualization',['../d2/d02/visualization_8h.html#a181bed94238421ed4333d0a69a50fa6c',1,'validate_visualization(cJSON *visualization):&#160;visualization.c'],['../da/d42/visualization_8c.html#ac81e3a520adf115f7e3d2b0acdd7425a',1,'validate_visualization(cJSON *data):&#160;visualization.c']]],
-  ['validate_5fworkflow_384',['validate_workflow',['../d0/daa/workflow_8h.html#aeac725bde13f931b7ff645ee9544148b',1,'validate_workflow(const cJSON *workflow):&#160;workflow.c'],['../d4/d8d/workflow_8c.html#a218fe673b3d91b15546063916db1429e',1,'validate_workflow(const cJSON *const workflow):&#160;workflow.c']]]
+  ['write_5fdata_5fto_5ffile_385',['write_data_to_file',['../d2/d4d/file_8h.html#a01bd60ad098c2f0cfc364e38195f892c',1,'write_data_to_file(char *filepath, char *data):&#160;file.c'],['../d6/d13/file_8c.html#a0756cc0b5d2272a36455663492315bb0',1,'write_data_to_file(char *file_path, char *data):&#160;file.c']]],
+  ['write_5fsim_5fconfig_386',['write_sim_config',['../d6/d12/simulation_8c.html#a1b42abd2257c5274a9736dacdd55f060',1,'simulation.c']]]
 ];
